@@ -1,4 +1,9 @@
 # privacy-vs-robustness
+
+### Notice
+Refer to https://github.com/inspire-group/privacy-vs-robustness for most up-to-date code!
+
+### About
 This code accompanies the paper "Privacy Risks of Securing Machine Learning Models against Adversarial Examples" 
 https://arxiv.org/abs/1905.10291
 
