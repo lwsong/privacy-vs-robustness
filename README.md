@@ -12,11 +12,11 @@ In total, we evaluate the privacy leakage introduced by six state-of-the-art rob
 We find out that robust training algorithms tend to increase the membership information leakage of trained models, compared to the natural training algorithm.
 
 ### Overview of the code
-`inference_utils.py`: defined function of membership infernce based on prediction confidence  
+`inference_utils.py`: defined function of membership inference based on prediction confidence  
 `utils.py`: defined function to prepare Yale Face dataset  
 `membership_inference_results.ipynb`: lists membership inference results  
 * *Inside the folder of each robust training method*  
-  `output_utils.py`: defined function to obtain predictions of training test data, in both benign and adversarial settings  
+  `output_utils.py`: defined function to obtain predictions of training and test data, in both benign and adversarial settings  
   `README.md`: instructions on how to train a robust (or natural) classifier
    * *Inside the subfolder of each dataset*  
       `output_performance.ipynb`: obtains model predictions  
